@@ -690,6 +690,10 @@ body {
 .contents-02-sp {
   display: none;
 }
+
+.contents-01-sp {
+  display: none;
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -840,7 +844,7 @@ font-size: 1.5rem;
     color: #8d6c28;
     margin-bottom: 2.3vw;
     font-family: "Kosugi Maru", sans-serif;
-    font-size: 4vw;
+    font-size: 4.6vw;
     font-weight: 400;
   }
 
@@ -904,11 +908,11 @@ font-size: 1.5rem;
    
   }
   .parallelogram h2 {
-    font-size: 3.8vw;
+    font-size: 3.9vw;
   }
 
   .services-contents p {
-    font-size: 3vw;
+    font-size: 3.6vw;
     text-align: left;
   }
 
@@ -935,11 +939,11 @@ align-items: center;
   }
 
   .parallelogram02 h2 {
-    font-size: 3.8vw;
+    font-size: 3.9vw;
   }
 
   .services-info p {
-    font-size: 3vw;
+    font-size: 3.6vw;
     line-height: 2;
     
   }
@@ -956,11 +960,15 @@ align-items: center;
     display: block;
   }
 .contents-01 {
+  display: none;
+}
+.contents-01-sp {
   margin-bottom: 6vw;
+  display: block;
 }
   
   .line-block h3 {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
     top: -7vw;
   }
 
@@ -969,6 +977,7 @@ align-items: center;
 }
 .services-details {
     max-width: 90%;
+    margin-top: 5vw;
 }
 
 .services-title {
@@ -977,7 +986,7 @@ align-items: center;
 }
 
 .services-title h4 {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
 }
 
 .number-block-sp {
@@ -1017,7 +1026,7 @@ align-items: center;
 }
 
 .flow-content p {
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-weight: 400;
 }
 
@@ -1046,7 +1055,7 @@ align-items: center;
 }
 
 .special-point-title h4 {
-  font-size: 3.5vw;
+  font-size: 3.8vw;
   font-weight: 500;
 }
 
@@ -1054,7 +1063,7 @@ align-items: center;
   font-size: 1rem;
 }
 .small-content {
-  font-size: 3vw;
+  font-size: 3.6vw;
   margin-top: 3vw;
   font-weight: 400;
 }
@@ -1066,6 +1075,13 @@ align-items: center;
   text-decoration-color: #7c7c7b;
   text-decoration-thickness: 2px;
   line-height: 2;
+}
+
+.important-note-above {
+  text-decoration-color: #94a5ac;
+  text-decoration-thickness: 2vw;
+  text-underline-offset: -0.5em;
+  font-size: 3.6vw;
 }
 
 
@@ -1080,12 +1096,6 @@ align-items: center;
   align-items: center;
   width: 90%;
   gap: 7vw;
-}
-.important-note-above {
-  text-decoration-color: #94a5ac;
-  text-decoration-thickness: 2vw;
-  text-underline-offset: -0.5em;
-  font-size: 3vw;
 }
 
 .important-note-below {
