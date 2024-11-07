@@ -1083,7 +1083,7 @@ align-items: center;
 }
 .important-note-above {
   text-decoration-color: #94a5ac;
-  text-decoration-thickness: 10px;
+  text-decoration-thickness: 2vw;
   text-underline-offset: -0.5em;
   font-size: 3vw;
 }
