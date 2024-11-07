@@ -706,6 +706,13 @@ body {
     right: 10vw;
   }
 
+  .hero-logo img {
+    width: 10vw;
+  }
+
+  .hero-slogan {
+    margin-bottom: 1vw;
+  }
   .parallelogram {
     width: 65vw;
     height: 6vw;
@@ -763,7 +770,7 @@ body {
 
 @media only screen and (max-width: 980px) {
   .hero-details {
-    right: 20vw;
+    /* right: 20vw; */
     right: 4vw;
   }
 
@@ -857,7 +864,8 @@ font-size: 1.5rem;
   }
 
   .hero-slogan {
-    margin-bottom: 2vh;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
   }
   .hero-slogan::before,
   .hero-slogan::after {
