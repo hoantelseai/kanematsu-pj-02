@@ -545,7 +545,7 @@ body {
   margin-top: 5vw;
 }
 
-.important-note-above {
+.important-note-above p{
   position: relative;
   text-align: center;
   text-decoration-line: underline;
@@ -1077,9 +1077,9 @@ align-items: center;
   line-height: 2;
 }
 
-.important-note-above {
+.important-note-above p {
   text-decoration-color: #94a5ac;
-  text-decoration-thickness: 2vw;
+  text-decoration-thickness: 3vw;
   text-underline-offset: -0.5em;
   font-size: 3.6vw;
 }
