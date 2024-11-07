@@ -694,6 +694,10 @@ body {
 .contents-01-sp {
   display: none;
 }
+
+.important-note-above-sp {
+  display: none;
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -1076,12 +1080,24 @@ align-items: center;
   text-decoration-thickness: 2px;
   line-height: 2;
 }
+.important-note-above {
+  display: none;
+}
 
-.important-note-above p {
+.important-note-above-sp {
+  display: block;
+}
+.important-note-above-sp p {
+ 
   text-decoration-color: #94a5ac;
   text-decoration-thickness: 3vw;
   text-underline-offset: -0.5em;
   font-size: 3.6vw;
+
+  position: relative;
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: 500;
 }
 
 
