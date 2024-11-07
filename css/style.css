@@ -687,7 +687,9 @@ body {
 .footer-background {
   display: none;
 }
-
+.contents-02-sp {
+  display: none;
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -882,8 +884,17 @@ font-size: 1.5rem;
     max-width: 100%;
   }
 
+  /* .services-contents {
+    display: none;
+  } */
+  .contents-02 {
+    display: none;
+  }
+  .contents-02-sp {
+    display: block;
+  }
   .services-contents {
-    width: 100%;
+    width: 90%;
     /* max-width: 100%; */
     margin-bottom: 5vw;
   }
@@ -1049,7 +1060,7 @@ align-items: center;
 }
 .note {
   margin-top: 3vw;
-  font-size: 2.2vw;
+  font-size: 2.8vw;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-color: #7c7c7b;
@@ -1079,7 +1090,7 @@ align-items: center;
 
 .important-note-below {
   margin-top: 5vw;
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 /* BUTTON FOR SP */
