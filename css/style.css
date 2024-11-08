@@ -685,6 +685,10 @@ body {
 .important-note-above-sp {
   display: none;
 }
+
+.button-block-sp {
+  display: none;
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .hero-details {
     right: 10vw;
@@ -803,6 +807,11 @@ body {
   .footer-block {
     display: none;
   }
+
+  .button-block {
+    display: none;
+  }
+
   .hero-background-sp {
     position: relative;
     display: flex;
@@ -1010,10 +1019,10 @@ body {
     font-weight: 400;
   }
 
-  .flow-04-img img {
+  /* .flow-04-img img {
     margin: 0;
     padding: 0;
-  }
+  } */
 
   /* SPECIAL-POINT-BLOCK-SP */
   .special-point-block {
@@ -1093,10 +1102,29 @@ body {
   }
 
   /* BUTTON FOR SP */
-  .button-block img {
-    width: 80vw;
+  .button-block-sp img {
+    width: 70vw;
     height: auto;
     margin: 0 auto;
+  }
+
+  .button-block-sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10vw;
+  }
+
+  .btns-sp {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .button-block-sp a {
+    display: inline-block;
   }
 
   /* FOOTER FOR SP */
