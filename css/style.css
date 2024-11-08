@@ -643,7 +643,7 @@ body {
   display: flex;
   margin: 10vh 0;
   gap: 3vw;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
   max-width: 40%;
 }
 
