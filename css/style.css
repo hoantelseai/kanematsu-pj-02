@@ -696,6 +696,9 @@ body {
 .button-block-sp {
   display: none;
 }
+.content-02-sp {
+  display: none;
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /* iPad 用 CSS */
   .hero-details {
@@ -825,6 +828,10 @@ body {
     display: none;
   }
 
+  .content-02 {
+    display: none;
+  }
+
   .hero-background-sp {
     position: relative;
     display: flex;
@@ -912,7 +919,9 @@ body {
   .contents-02-sp {
     display: block;
   }
-
+.content-02-sp {
+  display: block;
+}
   .services-contents {
     width: 100%;
     margin-bottom: 5vw;
