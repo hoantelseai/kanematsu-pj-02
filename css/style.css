@@ -484,7 +484,7 @@ body {
 }
 
 .wave-line p {
-  font-size: 1.5rem;
+  font-size: 1.6vw;
   z-index: 1;
   font-weight: 400;
 }
@@ -1082,7 +1082,7 @@ body {
   }
 
   .wave-line p {
-    font-size: 1rem;
+    font-size: 3.6vw;
   }
 
   .small-content {
