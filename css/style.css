@@ -793,7 +793,7 @@ body {
   }
 }
 
-@media screen and (max-height: 425px) {
+@media screen and (max-height: 430px) {
   /* モバイルデバイスの横向き（iPhone）のためのCSS */
   .hero-details {
     right: 2vw;
