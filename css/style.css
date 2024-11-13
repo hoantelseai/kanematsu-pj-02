@@ -811,27 +811,18 @@ body {
 
 } */
 
-@media not all and (min-resolution:.001778125em) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    background-color: white;
-    font-family: "Noto Sans JP", sans-serif;
-  }
-}
 
 
 
 @media only screen and (max-width: 820px) {
   /* 縦向きスマートフォンとミニタブレット用CSS */
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
-  }
+  } */
  
  
   .main-logo {
