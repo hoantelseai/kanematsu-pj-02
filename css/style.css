@@ -808,7 +808,7 @@ body {
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
   }
-  @-moz-document url-prefix() {
+  @supports (-moz-appearance: none) {
     body {
         /* CSS riêng cho Firefox */
         width: 100vw;
