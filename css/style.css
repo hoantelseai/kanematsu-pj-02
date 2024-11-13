@@ -73,7 +73,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   background-color: white;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 24px;
@@ -700,6 +700,7 @@ body {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /* iPad 用 CSS */
+
   .hero-details {
     right: 10vw;
   }
