@@ -104,7 +104,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 45vw;
   margin-bottom: 3vh;
 }
@@ -804,7 +804,7 @@ body {
   body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
   }
@@ -1263,10 +1263,10 @@ body {
   }
 }
 
-@supports (-moz-appearance: none) {
+/* @supports (-moz-appearance: none) {
   @media screen and (max-width: 768px) and (orientation: landscape) {
     body {
       width: 100vw;
     }
   }
-}
+} */
