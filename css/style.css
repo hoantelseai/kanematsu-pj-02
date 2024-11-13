@@ -752,6 +752,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 834px) and (orientation: portrait) {
   /*iPad Airの縦向き用CSS */
+
   .services-block {
     max-width: 100%;
     display: flex;
@@ -808,6 +809,13 @@ body {
     width: 100%;
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
+  }
+  @supports (-moz-appearance: none) {
+    body {
+      margin: 0;
+    padding: 0;
+    width: 100vw;
+    }
   }
  
   .main-logo {
