@@ -804,11 +804,16 @@ body {
   body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
   }
-
+  @-moz-document url-prefix() {
+    body {
+        /* CSS riêng cho Firefox */
+        width: 100vw;
+    }
+}
   .main-logo {
     padding: 3vw 0;
   }
