@@ -798,6 +798,13 @@ body {
     right: 2vw;
   }
 }
+@-moz-document url-prefix() {
+  @media only screen and (max-width: 820px) {
+    body {
+      width: 100vw;
+    }
+  }
+}
 
 @media only screen and (max-width: 820px) {
   /* 縦向きスマートフォンとミニタブレット用CSS */
@@ -808,12 +815,7 @@ body {
     background-color: white;
     font-family: "Noto Sans JP", sans-serif;
   }
-  @supports (-moz-appearance: none) {
-    body {
-        /* CSS riêng cho Firefox */
-        width: 100vw;
-    }
-}
+ 
   .main-logo {
     padding: 3vw 0;
   }
